@@ -7,7 +7,7 @@ from pymongo import MongoClient
 model_loaded = pickle.load(open('C:\\Users\\Ritansh\\Desktop\\DiseasePrediction\\heart_disease_data.sav', 'rb'))
 
 # MongoDB connection settings
-client = MongoClient('mongodb+srv://RitanshBagal:Aventador$26.@cluster0.cvfpwsz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('mongodb+srv://RitanshBagal:<password>@cluster0.cvfpwsz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
 
 db_name = "db1"
 collection_name = "mycollection"
